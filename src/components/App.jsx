@@ -1,4 +1,4 @@
-import Cuadricula from "./Cursos/Cuadricula.jsx"
+import Calculadora from "./Calculadora.jsx"
 import Header from "./Header/Header.jsx"
 
 function App(){
@@ -7,8 +7,7 @@ function App(){
       <Header/>
       <main>
         <h1>Cursos EDTeam</h1>
-        <Cuadricula/>
-        
+        <Calculadora nombre="Formulario de Calculadora"/>
       </main>
     </>   
   )
